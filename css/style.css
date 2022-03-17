@@ -38,8 +38,8 @@ header {
 /* button */
 
 .btn-round {
-    border-radius: 30px;
-    padding: 8px;
+    border-radius: 25px;
+    padding: 10px;
     text-align: center;
 }
 
