@@ -3,8 +3,9 @@
     --white: #ffffff;
     --gray:#bebcbb;
     --blue: #00439c;
-    --orange:#cd3d0f;
+    --lightblue:#2d64e6;
     --dark-blue:#161c3b;
+    --orange:#cd3d0f;
     --light-black:#1f1f1f;
 }
 
@@ -48,6 +49,10 @@ header {
     text-decoration: none;
 }
 
+.btn-blue {
+    background-color: var(--lightblue);
+    text-decoration: none;
+}
 /* first section */
 
 #jumbotron {
