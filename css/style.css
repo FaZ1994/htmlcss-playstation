@@ -96,6 +96,21 @@ header {
     background-color: var(--dark-blue);
 }
 
+footer {
+    background-color: var(--blue);
+}
+
+
+.col-6 ul li,.col-6 ul li a{
+    color: white;
+    list-style:none;
+    line-height: 40px;
+    font-size: 0.8rem;
+    line-height: 200%;
+    text-decoration: none;
+
+}
+
 .card-round{
     border-radius: 25px;
     text-align: center;
