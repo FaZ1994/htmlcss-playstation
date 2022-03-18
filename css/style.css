@@ -53,19 +53,54 @@ header {
     background-color: var(--lightblue);
     text-decoration: none;
 }
+
+.btn-gray {
+    background-color:lightgray;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-white {
+    background-color:white;
+    text-decoration: none;
+    font-weight: 500;
+}
 /* first section */
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    background-position: -80px;
     background-size: cover;
-    height:900px;
+    height:800px;
     margin-top: 120px;
 }
 
 
+#game-it {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    height:800px;
+}
 
 
+#new-games {
+    background-color: var(--light-black);
+}
+
+
+#ps-plus {
+    background-color: var(--gray);
+}
+
+
+#ps-now {
+    background-color: var(--dark-blue);
+}
+
+.card-round{
+    border-radius: 25px;
+    text-align: center;
+   
+}
     
     
     
