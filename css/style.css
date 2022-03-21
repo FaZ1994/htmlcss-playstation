@@ -169,10 +169,15 @@ box-shadow: 0 0 0 3px var(--lightblue)
     
 }
 
+
 .ratchet::after {
     background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
 }
-#returnal:checked ~ #jumbotron .returnal, #ratchet:checked ~ #jumbotron .ratchet {
+#returnal:checked ~ #jumbotron .returnal, #ratchet:checked ~ #jumbotron .ratchet, 
+#gta:checked ~ #jumbotron .gta,
+#gran-turismo:checked ~ #jumbotron .gran-turismo,
+#nba:checked ~ #jumbotron .nba,
+#w2k22:checked ~ #jumbotron .w2k22 {
     display:contents;
 }
 #returnal:checked ~ #jumbotron {
@@ -184,6 +189,47 @@ box-shadow: 0 0 0 3px var(--lightblue)
     background-position: center;
   }
 
+  
+  .gta-card::after {
+    background-image: url(../img/gta-card.jfif);
+  }
+
+  #gta:checked ~ #jumbotron {
+    background-image: url(../img/gta.jpg);
+    background-position: center;
+  }
+
+
+  .gran-turismo::after {
+    background-image: url(../img/gran-turismo-card.jpg);
+  }
+
+  #gran-turismo:checked ~ #jumbotron {
+    background-image: url(../img/gran-turismo-bg.jpg);
+    background-position: center;
+  }
+
+  .nba::after {
+    background-image: url(../img/nba-card.jfif);
+  }
+
+  #nba:checked ~ #jumbotron {
+    background-image: url(../img/nba.jpg);
+    background-position: center;
+  }
+
+
+  .w2k22::after {
+    background-image: url(../img/w2k22-card.jpg);
+  }
+
+
+  #w2k22:checked ~ #jumbotron {
+    background-image: url(../img/w2k22-bg.jpg);
+    background-position: center;
+  }
+
+  
 
   .hover-bt-line:hover .border-overlay{
     border-bottom:1px solid var(--lightblue);
