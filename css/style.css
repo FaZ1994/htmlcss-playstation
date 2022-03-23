@@ -263,17 +263,17 @@ box-shadow: 0 0 0 3px var(--lightblue)
   }
 
 
-  #returnal:checked ~ #jumbotron::before,
-  #ratchet:checked  ~ #jumbotron::before,
-  #gta:checked ~ #jumbotron::before,
-  #gran-turismo:checked  ~ #jumbotron::before,
-  #w2k22:checked::before  ~ #jumbotron {
+  #returnal:checked ~ #jumbotron,
+  #ratchet:checked  ~ #jumbotron,
+  #gta:checked ~ #jumbotron,
+  #gran-turismo:checked  ~ #jumbotron,
+  #w2k22:checked  ~ #jumbotron {
 
     background-color: black;
 
    }
 
-  #nba:checked::before  ~ #jumbotron{
+  #nba:checked  ~ #jumbotron {
 
     background-color:white;
 
